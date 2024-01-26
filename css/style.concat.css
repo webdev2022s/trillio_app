@@ -286,18 +286,17 @@ body {
     text-transform: uppercase;
     color: #fff;
     width: 100%;
-    top: 20rem;
+    top: 100%;
     font-size: 2rem;
     opacity: 1;
     z-index: 2;
-    transform: scale(1.2) translateY(4rem);
     background-image: linear-gradient(to right, var(--color-primary), var(--color-primary-light));
     transition: all 0.5s; }
   .gallery__item:hover .gallery__photo {
     transform: scale(1); }
   .gallery__item:hover .gallery__caption {
     display: inline-block;
-    transform: scale(1) translateY(1rem); }
+    transform: scale(1) translateY(-100%); }
 
 .overview {
   display: flex;
